@@ -97,3 +97,8 @@ deta new
 - [Deta にデプロイ - FastAPI](https://fastapi.tiangolo.com/ja/deployment/deta/)
 - [Python Tutorial | Deta Docs](https://docs.deta.sh/docs/base/py_tutorial/?ref=fastapi)
 - [DETA](https://web.deta.sh/home/cti1650/default/micros)
+- [Python3.9をHomebrewでM1 Macにインストールする（2021年3月16日時点） - ちゃぱブログ / エンジニアリング / マネジメント](https://as-chapa.hatenablog.com/entry/m1-python-install-20210316)
+- [Pythonをローカルで利用できるようにする](https://zenn.dev/souq/articles/7d752c7a80c488cabd19)
+- [brewでインストールに失敗する時の対処メモ](https://zenn.dev/souq/articles/3c0591a50f39269793c9)
+- [Chrome ウェブストア - gitpod](https://chrome.google.com/webstore/search/gitpod?hl=ja)
+
