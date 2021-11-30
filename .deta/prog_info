@@ -1,0 +1,1 @@
+{"id":"b08b2477-701b-40ae-82c6-9a3160980240","space":13919,"runtime":"python3.9","name":"fastAPI_test","path":"ues2ls","project":"c01er5d3","account":"144798365827","region":"ap-southeast-1","deps":["fastapi"],"envs":null,"public":true,"log_level":"debug","cron":""}

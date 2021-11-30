@@ -8,6 +8,7 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
 source ~/.zprofile
+brew update
 brew install python
 brew install scipy
 pip install seaborn
@@ -19,13 +20,15 @@ pip install matplotlib
 
 ## fastAPI
 
-### fastAPI導入
+### fastAPI 導入
+
 ```bash
 pip install fastapi
 pip install "uvicorn[standard]"
 ```
 
 ### サンプル
+
 ```python
 from typing import Optional
 
@@ -45,42 +48,52 @@ def read_item(item_id: int, q: Optional[str] = None):
 ```
 
 ### サーバー立ち上げ
+
 ```
 uvicorn main:app --reload
 ```
 
-### requirements.txt作成
+### requirements.txt 作成
+
 ```plane:requirements.txt
 fastapi
 ```
 
 ### Deta 登録
+
 [Deta Cloud](https://www.deta.sh/?ref=fastapi)
 
-### Deta CLIインストール
+### Deta CLI インストール
+
 ```
 curl -fsSL https://get.deta.dev/cli.sh | sh
 ```
+
 動作確認
+
 ```
 deta --help
+~/.data/bin/deta --help
 ```
 
 ### CLI Login
+
 ```
 deta login
+~/.data/bin/deta login
 ```
 
 ### Deta デプロイ
+
 ```
 deta new
+~/.data/bin/deta new
 ```
 
 ## 参考にしたサイト
 
-- [M1 Macでできるだけ楽にPython環境を構築する - Qiita](https://qiita.com/C2_now/items/c85be2ffeacd61cc7207)
+- [M1 Mac でできるだけ楽に Python 環境を構築する - Qiita](https://qiita.com/C2_now/items/c85be2ffeacd61cc7207)
 - [tiangolo/fastapi: FastAPI framework, high performance, easy to learn, fast to code, ready for production](https://github.com/tiangolo/fastapi)
 - [Deta にデプロイ - FastAPI](https://fastapi.tiangolo.com/ja/deployment/deta/)
 - [Python Tutorial | Deta Docs](https://docs.deta.sh/docs/base/py_tutorial/?ref=fastapi)
 - [DETA](https://web.deta.sh/home/cti1650/default/micros)
-
