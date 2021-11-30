@@ -1,5 +1,22 @@
 # fastAPI_test
 
+## Python
+
+### 環境構築
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
+source ~/.zprofile
+brew install python
+brew install scipy
+pip install seaborn
+pip uninstall numpy
+pip uninstall matplotlib
+brew install scipy
+pip install matplotlib
+```
+
 ## fastAPI
 
 ### fastAPI導入
@@ -61,6 +78,7 @@ deta new
 
 ## 参考にしたサイト
 
+- [M1 Macでできるだけ楽にPython環境を構築する - Qiita](https://qiita.com/C2_now/items/c85be2ffeacd61cc7207)
 - [tiangolo/fastapi: FastAPI framework, high performance, easy to learn, fast to code, ready for production](https://github.com/tiangolo/fastapi)
 - [Deta にデプロイ - FastAPI](https://fastapi.tiangolo.com/ja/deployment/deta/)
 - [Python Tutorial | Deta Docs](https://docs.deta.sh/docs/base/py_tutorial/?ref=fastapi)
