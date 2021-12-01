@@ -2,9 +2,10 @@
 
 ## Python
 
-### 環境構築
+### Python 環境構築
 
-必要に応じて実施
+M1 macの場合 必要に応じて実施
+
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
