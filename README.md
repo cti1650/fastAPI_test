@@ -4,7 +4,7 @@
 
 ### Python 環境構築
 
-M1 macの場合 必要に応じて実施
+M1 mac の場合 必要に応じて実施
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -37,6 +37,10 @@ yarn setup
 ```
 
 ### サンプル
+
+#### 本番リンク
+
+[https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)
 
 ```python
 from typing import Optional
@@ -97,18 +101,25 @@ deta --help
 ~/.deta/bin/deta --help
 ```
 
-### Deta CLI Login (エラーになるためChromeで実施要)
+### Deta CLI Login (エラーになるため Chrome で実施要)
 
 ```
 deta login
 ~/.deta/bin/deta login
 ```
 
-### Deta デプロイ
+### Deta 新規連携
 
 ```
 deta new
 ~/.deta/bin/deta new
+```
+
+### Deta デプロイ
+
+```
+deta deploy
+~/.deta/bin/deta deploy
 ```
 
 ## 参考にしたサイト
@@ -118,8 +129,7 @@ deta new
 - [Deta にデプロイ - FastAPI](https://fastapi.tiangolo.com/ja/deployment/deta/)
 - [Python Tutorial | Deta Docs](https://docs.deta.sh/docs/base/py_tutorial/?ref=fastapi)
 - [DETA](https://web.deta.sh/home/cti1650/default/micros)
-- [Python3.9をHomebrewでM1 Macにインストールする（2021年3月16日時点） - ちゃぱブログ / エンジニアリング / マネジメント](https://as-chapa.hatenablog.com/entry/m1-python-install-20210316)
-- [Pythonをローカルで利用できるようにする](https://zenn.dev/souq/articles/7d752c7a80c488cabd19)
-- [brewでインストールに失敗する時の対処メモ](https://zenn.dev/souq/articles/3c0591a50f39269793c9)
+- [Python3.9 を Homebrew で M1 Mac にインストールする（2021 年 3 月 16 日時点） - ちゃぱブログ / エンジニアリング / マネジメント](https://as-chapa.hatenablog.com/entry/m1-python-install-20210316)
+- [Python をローカルで利用できるようにする](https://zenn.dev/souq/articles/7d752c7a80c488cabd19)
+- [brew でインストールに失敗する時の対処メモ](https://zenn.dev/souq/articles/3c0591a50f39269793c9)
 - [Chrome ウェブストア - gitpod](https://chrome.google.com/webstore/search/gitpod?hl=ja)
-
