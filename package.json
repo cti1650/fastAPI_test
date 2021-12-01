@@ -5,9 +5,10 @@
   "main": "index.js",
   "devDependencies": {},
   "scripts": {
-    "setup":"pip install fastapi uvicorn[standard] && curl -fsSL https://get.deta.dev/cli.sh | sh",
+    "setup": "pip install fastapi uvicorn[standard] && curl -fsSL https://get.deta.dev/cli.sh | sh",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "uvicorn main:app --reload"
+    "serve": "uvicorn main:app --reload",
+    "deploy": "~/.deta/bin/deta deploy"
   },
   "repository": {
     "type": "git",

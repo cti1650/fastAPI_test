@@ -12,12 +12,6 @@ echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
 source ~/.zprofile
 brew update
 brew install python
-brew install scipy
-pip install seaborn
-pip uninstall numpy
-pip uninstall matplotlib
-brew install scipy
-pip install matplotlib
 ```
 
 ## fastAPI
