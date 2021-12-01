@@ -4,6 +4,7 @@
 
 ### 環境構築
 
+必要に応じて実施
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 echo 'eval $(/opt/homebrew/bin/brew shellenv)' >> ~/.zprofile
@@ -25,6 +26,13 @@ pip install matplotlib
 ```bash
 pip install fastapi
 pip install "uvicorn[standard]"
+```
+
+または
+
+```bash
+yarn
+yarn setup
 ```
 
 ### サンプル
@@ -53,6 +61,12 @@ def read_item(item_id: int, q: Optional[str] = None):
 uvicorn main:app --reload
 ```
 
+または
+
+```
+yarn serve
+```
+
 ### requirements.txt 作成
 
 ```plane:requirements.txt
@@ -69,25 +83,31 @@ fastapi
 curl -fsSL https://get.deta.dev/cli.sh | sh
 ```
 
-動作確認
+### Deta 環境変数定義
+
+```
+echo 'export PATH=~/.deta/bin:$PATH' >> ~/.bash_profile && source ~/.bash_profile
+```
+
+### Deta 動作確認
 
 ```
 deta --help
-~/.data/bin/deta --help
+~/.deta/bin/deta --help
 ```
 
-### CLI Login
+### Deta CLI Login (エラーになるためChromeで実施要)
 
 ```
 deta login
-~/.data/bin/deta login
+~/.deta/bin/deta login
 ```
 
 ### Deta デプロイ
 
 ```
 deta new
-~/.data/bin/deta new
+~/.deta/bin/deta new
 ```
 
 ## 参考にしたサイト
