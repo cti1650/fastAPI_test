@@ -1,0 +1,22 @@
+{
+  "name": "fastapi_test",
+  "version": "1.0.0",
+  "description": "## Python",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "setup":"pip install fastapi uvicorn[standard] && curl -fsSL https://get.deta.dev/cli.sh | sh",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "uvicorn main:app --reload"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cti1650/fastAPI_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cti1650/fastAPI_test/issues"
+  },
+  "homepage": "https://github.com/cti1650/fastAPI_test#readme"
+}
