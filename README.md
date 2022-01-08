@@ -32,6 +32,8 @@ yarn setup
 
 ### サンプル
 
+<a title="Gitpod" href="https://gitpod.io/#https://github.com/cti1650/fastAPI_test" target="_blank" class="btn btn-primary">Gitpodでサンプルを実行</a>
+
 #### 本番リンク
 
 [https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)
