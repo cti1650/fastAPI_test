@@ -36,8 +36,10 @@ yarn setup
 
 #### 本番リンク
 
-deta   : [https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)
-vercel : [fast-api-test.vercel.app/](fast-api-test.vercel.app/)
+|デプロイ先|URL|
+|:-:|:-|
+|deta|[https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)|
+|vercel|[fast-api-test.vercel.app/](fast-api-test.vercel.app/)|
 
 ```python
 from typing import Optional
