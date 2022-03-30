@@ -40,6 +40,7 @@ yarn setup
 |:-:|:-|
 |deta|[https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)|
 |vercel|[https://fast-api-test.vercel.app/](https://fast-api-test.vercel.app/)|
+|heroku|[https://fastapi-test-cti-tl.herokuapp.com/](https://fastapi-test-cti-tl.herokuapp.com/)
 
 ```python
 from typing import Optional
@@ -132,3 +133,6 @@ deta deploy
 - [Python をローカルで利用できるようにする](https://zenn.dev/souq/articles/7d752c7a80c488cabd19)
 - [brew でインストールに失敗する時の対処メモ](https://zenn.dev/souq/articles/3c0591a50f39269793c9)
 - [Chrome ウェブストア - gitpod](https://chrome.google.com/webstore/search/gitpod?hl=ja)
+- [Heroku deployment of Fastapi (Python) running on uvicorn: Web process failed to bind to $PORT - Stack Overflow](https://stackoverflow.com/questions/70608215/heroku-deployment-of-fastapi-python-running-on-uvicorn-web-process-failed-to)  
+
+
