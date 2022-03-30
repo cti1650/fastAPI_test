@@ -17,5 +17,5 @@ def read_item(item_id: int, q: Optional[str] = None):
 
 if __name__ == "__main__":
     debug: bool = True if os.getenv("ENV", "dev") == "dev" else False
-    port: int = int(os.getenv("PORT", 8000))
+    port: int = int(os.getenv("PORT", 5000))
     uvicorn.run(app, host="0.0.0.0", port=port, reload=debug, debug=debug)
