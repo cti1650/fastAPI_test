@@ -2,9 +2,11 @@ import os
 from typing import Optional
 
 from fastapi import FastAPI
+from routers.health import api_health
 
 app = FastAPI()
 
+api_health(app)
 
 @app.get("/")
 def read_root():
