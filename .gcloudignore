@@ -1,6 +1,9 @@
 *
-!routers/*.py
-!routers/**/*.py
+
+!.
+!routers/**
 !main.py
 !requirements.txt
 !cloudbuild.yaml
+!package.json
+!yarn.lock
