@@ -2,3 +2,4 @@
 !routers/**
 !*.py
 !requirements.txt
+!cloudbuild.yaml
