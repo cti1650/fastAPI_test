@@ -41,6 +41,7 @@ yarn setup
 |deta|[https://ues2ls.deta.dev/](https://ues2ls.deta.dev/)|
 |vercel|[https://fast-api-test.vercel.app/](https://fast-api-test.vercel.app/)|
 |heroku|[https://fastapi-test-cti-tl.herokuapp.com/](https://fastapi-test-cti-tl.herokuapp.com/)
+|Cloud Functions|[https://asia-northeast1-endless-set-138723.cloudfunctions.net/fastapi-test](https://asia-northeast1-endless-set-138723.cloudfunctions.net/fastapi-test)
 
 ```python
 from typing import Optional
