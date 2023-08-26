@@ -1,0 +1,4 @@
+*/*
+!routers/
+!*.py
+!requirements.txt
