@@ -9,6 +9,6 @@ steps:
   - --region
   - asia-northeast1
   - --entry-point
-  - entry-point
+  - entry_point
   env:
   - PLATFORM=GCP
