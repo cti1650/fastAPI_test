@@ -1,5 +1,5 @@
 *
 !routers/**
-!*.py
+!main.py
 !requirements.txt
 !cloudbuild.yaml
