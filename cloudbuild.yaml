@@ -1,0 +1,13 @@
+steps:
+- name: 'gcr.io/cloud-builders/gcloud'
+  args:
+  - functions
+  - deploy
+  - fastapi-test
+  - --runtime
+  - python311
+  - --region
+  - asia-northeast1
+  - --entry-point
+  - entry-point
+  - --set-env-vars PLATFORM=GCP
