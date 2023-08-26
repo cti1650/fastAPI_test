@@ -10,4 +10,5 @@ steps:
   - asia-northeast1
   - --entry-point
   - entry-point
-  - --set-env-vars PLATFORM=GCP
+  env:
+  - PLATFORM=GCP

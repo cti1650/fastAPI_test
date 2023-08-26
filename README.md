@@ -134,5 +134,5 @@ deta deploy
 - [brew でインストールに失敗する時の対処メモ](https://zenn.dev/souq/articles/3c0591a50f39269793c9)
 - [Chrome ウェブストア - gitpod](https://chrome.google.com/webstore/search/gitpod?hl=ja)
 - [Heroku deployment of Fastapi (Python) running on uvicorn: Web process failed to bind to $PORT - Stack Overflow](https://stackoverflow.com/questions/70608215/heroku-deployment-of-fastapi-python-running-on-uvicorn-web-process-failed-to)  
-
+- [AWS LambdaとCloud FunctionsにFastAPIをデプロイする方法 - Enlone](https://lonesec.com/2020/09/12/deploy_to_functions_with_agraffe/)  
 
