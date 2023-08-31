@@ -4,11 +4,11 @@ from typing import Optional
 from agraffe import Agraffe, Service
 
 from fastapi import FastAPI
-from routers.health import api_health
+from routers import base
 
 app = FastAPI()
 
-api_health(app)
+app.include_router(base.router)
 
 @app.get("/")
 def read_root():
